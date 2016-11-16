@@ -1,0 +1,13 @@
+#!/usr/bin/python
+
+pisg_config: 'pisg.cfg'
+wwwroot: 'var/www/html'
+
+# Templates
+header: 'static/pages/header.html'
+footer: 'static/pages/footer.html'
+stats: 'static/pages/stats.html'
+# Analytics
+ga_id: ''
+google_ad_client: ''
+

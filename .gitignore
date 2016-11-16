@@ -1,0 +1,7 @@
+static
+!static/css
+cache
+conf*
+!defaults/conf*
+irclogs
+*.swp

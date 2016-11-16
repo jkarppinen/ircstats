@@ -1,0 +1,137 @@
+/* to obtain a better result, then set the these pisg options:
+ *  <set hicell="#1a354d">
+ *  <set hicell2="#444444">
+ */
+
+A
+{
+    TEXT-DECORATION: none;
+}
+A:link
+{
+    COLOR: #b5c6d5;
+}
+A:visited
+{
+    COLOR: #b5c6d5;
+}
+A:hover
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: underline
+}
+A.background
+{
+    TEXT-DECORATION: none;
+}
+A.background:link
+{
+    COLOR: #b5c6d5;
+}
+A.background:visited
+{
+    COLOR: #b5c6d5;
+}
+A.background:hover
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: underline;
+}
+BODY
+{
+    FONT-SIZE: 13px;
+    COLOR: #dedede;
+    FONT-FAMILY: Verdana, Arial, sans-serif;
+    background: url('static/img/northern-lights-hd.jpg') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000;
+    background-size: cover;
+}
+TD
+{
+    FONT-SIZE: 13px;
+    COLOR: #dedede;
+    FONT-FAMILY: Verdana, Arial, sans-serif;
+    TEXT-ALIGN: left
+}
+.title
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16px;
+    FONT-FAMILY: Tahoma, Arial, sans-serif
+}
+.headtext
+{
+    FONT-WEIGHT: bold;
+    COLOR: #dedede;
+    BACKGROUND-COLOR: rgba(10,10,200,0.25);
+    TEXT-ALIGN: center
+}
+.headlinebg
+{
+    BACKGROUND-COLOR: rgba(10,10,200,0.25);
+}
+.tdtop
+{
+    BACKGROUND-COLOR: #718292
+}
+.hicell
+{
+    BACKGROUND: rgba(150, 150, 150, 0.75); 
+}
+.hicell10
+{
+    FONT-SIZE: 10px;
+    BACKGROUND-COLOR: #444444
+}
+.rankc
+{
+    BACKGROUND-COLOR: #444444
+}
+.hirankc
+{
+    FONT-WEIGHT: bold;
+    BACKGROUND-COLOR: #545454
+}
+.rankc10
+{
+    FONT-SIZE: 10px;
+    BACKGROUND-COLOR: #444444
+}
+.rankc10center
+{
+    FONT-SIZE: 10px;
+    BACKGROUND-COLOR: #444444;
+    TEXT-ALIGN: center
+}
+.hirankc10center
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10px;
+    BACKGROUND-COLOR: #545454;
+    TEXT-ALIGN: center
+}
+.small
+{
+    FONT-SIZE: 10px;
+    FONT-FAMILY: Verdana, Arial, sans-serif
+}
+.asmall
+{
+    FONT-SIZE: 10px;
+    COLOR: #dedede;
+    FONT-FAMILY: "Arial narrow", Arial, sans-serif
+    TEXT-ALIGN: center
+}
+.right {
+	font-size: 22px;
+}
+
+body div table:nth-of-type(7) tr:nth-of-type(1) {
+    display: none;
+}
+.background_copyright {
+    position: absolute;
+    right: 0;
+}

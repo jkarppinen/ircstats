@@ -1,5 +1,6 @@
-static
-!static/css
+!static/css/
+static/img/
+static/pages/
 cache
 conf*
 !defaults/conf*

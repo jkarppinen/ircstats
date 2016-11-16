@@ -8,7 +8,7 @@ conf_file = 'conf_ircstats.yaml'
 if os.path.isfile(conf_file):
     vars = yaml.load(open(conf_file))
 else:
-    print '[ Error] '+ conf_file + ' missing. Did you run `python setup.py` ?'
+    raise StandardError(conf_file + ' missing. Did you run `python setup.py` ?')
 
 print ' [  1/2] Generate pisg'
 os.system('pisg --configfile=' + vars['pisg_config'])

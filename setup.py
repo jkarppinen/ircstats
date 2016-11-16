@@ -30,7 +30,13 @@ else:
 print 'Creating dummy pages if not existing...'
 pages = [vars['header'], vars['footer'], vars['stats']]
 
+
 for file in pages:
+    try:
+        os.stat(os.path.dirname(file))
+    except:
+        os.mkdir(os.path.dirname(file))
+
     print 'Touching file ' + file
     touch(file)
 

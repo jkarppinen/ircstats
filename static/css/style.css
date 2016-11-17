@@ -150,3 +150,6 @@ body div table:nth-of-type(7) tr:nth-of-type(1) {
 body {
     color: #fff !important;
 }
+.carousel-item {
+    height: 140px;
+}

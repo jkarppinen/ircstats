@@ -14,7 +14,7 @@ if os.path.isfile(conf_file):
 else:
     raise StandardError(conf_file + " missing")
 
-station_id = '10064349'
+station_id = '100643492'
 headtext = '<h2>Lämpötila Oulussa</h2> '
 
 req = urllib2.Request('http://foreca.mobi/spot.php?l=' + station_id)

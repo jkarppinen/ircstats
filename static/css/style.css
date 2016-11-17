@@ -139,7 +139,7 @@ body div table:nth-of-type(7) tr:nth-of-type(1) {
     font-family: 'Tangerine', cursive;
     font-size: 45px;
     color: #fff;
-    text-shadow: 0.1em 0.1em 0.2em black;
+    text-shadow: 0.1em 0.1em 0.2em #ccc;
 }
 
 .quote_author {

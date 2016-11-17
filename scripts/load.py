@@ -3,7 +3,9 @@ import os
 
 scripts = [ 'add-dom.py',
             'foreca.py',
-            'quotes.py',
+            #'quotes.py',
+            'carousel.py',
+
           ]
 
 for s in scripts:

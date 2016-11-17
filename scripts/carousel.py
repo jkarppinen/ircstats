@@ -49,7 +49,6 @@ html = """
         </div>
     </div>
 """
-print html
 output_file.write(html.encode('utf-8'))
 output_file.writelines(lines)
 output_file.close()

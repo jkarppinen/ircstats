@@ -11,3 +11,9 @@ stats: 'static/pages/stats.html'
 ga_id: ''
 google_ad_client: ''
 
+
+# Misc
+quotes:
+  - {"quote":"Lorem ipsum dolor sit amet",
+     "author": "Author"}
+

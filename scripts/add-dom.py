@@ -16,6 +16,9 @@ output_file = open(output_filename, 'w')
 # noindex, nofollow
 soup.head.append("""
     <meta name="robots" content="noindex, nofollow">
+
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+
 """)
 
 # Google AdSense

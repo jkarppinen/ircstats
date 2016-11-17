@@ -5,6 +5,8 @@ import codecs
 import urllib2
 from bs4 import BeautifulSoup
 import sys
+import os
+import yaml
 
 conf_file = 'conf_ircstats.yaml'
 if os.path.isfile(conf_file):

@@ -16,7 +16,5 @@ print 'pisg file generated with --configfile=' + vars['pisg_config']
 print ''
 
 print '[   2/2] Run scripts'
-for file in glob.glob('scripts/*.py'):
-    execfile(file)
-    print '[Script] ' + file + ' executed'
+execfile('scripts/load.py')
 

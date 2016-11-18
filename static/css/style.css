@@ -131,6 +131,34 @@ TD
 body div table:nth-of-type(7) tr:nth-of-type(1) {
     display: none;
 }
+
+body div table:nth-of-type(5) tbody tr:nth-of-type(2) td:nth-of-type(2)::before {
+    content: "\f091";
+    font-size: 16px;
+    color: #ffd700;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: "FontAwesome";
+
+}
+
+body div table:nth-of-type(5) tbody tr:nth-of-type(3) td:nth-of-type(2)::before {
+    content: "\f091";
+    font-size: 16px;
+    color: #c0c0c0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: "FontAwesome";
+
+}
+
+body div table:nth-of-type(5) tbody tr:nth-of-type(4) td:nth-of-type(2)::before {
+    content: "\f091";
+    font-size: 16px;
+    color: #3f2109;
+    text-shadow: #bbb 0.1em 0.1em 0.2em;
+    font-family: "FontAwesome";
+
+}
+
 .background_copyright {
     position: absolute;
     right: 0;

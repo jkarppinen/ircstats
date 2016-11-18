@@ -153,3 +153,7 @@ body {
 .carousel-item {
     height: 140px;
 }
+
+.forkme {
+    max-width: 13%;
+}

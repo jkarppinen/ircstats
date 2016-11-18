@@ -14,7 +14,7 @@ def add_carousel_item(content, active=False):
     carousel_div = '<div class="carousel-item">'
     if active:
         carousel_div = '<div class="carousel-item active">'
-    html = carousel_div + content + '</div></div>'
+    html = carousel_div + content
     return html
 
 conf_file = 'conf_ircstats.yaml'

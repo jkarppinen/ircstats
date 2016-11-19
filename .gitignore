@@ -1,8 +1,10 @@
-!static/css/
+.sass-cache
+static/css/
 static/img/
 static/pages/
 cache
 conf*
+!config.rb
 !defaults/conf*
 irclogs
 *.swp

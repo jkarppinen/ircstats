@@ -120,12 +120,20 @@ body div table {
     display: none;
   }
   &:nth-of-type(5) tbody tr {
-    &:nth-of-type(2) td:nth-of-type(2)::before {
-      content: "\f091";
-      font-size: 16px;
-      color: #ffd700;
-      text-shadow: black 0.1em 0.1em 0.2em;
-      font-family: "FontAwesome";
+
+      &:nth-of-type(2) {
+
+          outline: none;
+          border-color: #fff;
+          box-shadow: 0 0 10px #fff;
+
+          td:nth-of-type(2)::before {
+              content: "\f091";
+              font-size: 16px;
+              color: #ffd700;
+              text-shadow: black 0.1em 0.1em 0.2em;
+              font-family: "FontAwesome";
+        }
     }
     &:nth-of-type(3) td:nth-of-type(2)::before {
       content: "\f091";

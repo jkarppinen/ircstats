@@ -3,31 +3,31 @@
  *  <set hicell2="#444444">
  */
 
-A {
-  TEXT-DECORATION: none;
+a {
+  text-decoration: none;
   &:link, &:visited {
-    COLOR: #b5c6d5;
+    color: #b5c6d5;
   }
   &:hover {
-    COLOR: #ffffff;
-    TEXT-DECORATION: underline;
+    color: #ffffff;
+    text-decoration: underline;
   }
   &.background {
-    TEXT-DECORATION: none;
+    text-decoration: none;
     &:link, &:visited {
-      COLOR: #b5c6d5;
+      color: #b5c6d5;
     }
     &:hover {
-      COLOR: #ffffff;
-      TEXT-DECORATION: underline;
+      color: #ffffff;
+      text-decoration: underline;
     }
   }
 }
 
-BODY {
-  FONT-SIZE: 13px;
-  COLOR: #dedede;
-  FONT-FAMILY: Verdana, Arial, sans-serif;
+body {
+  font-size: 13px;
+  color: #dedede;
+  font-family: Verdana, Arial, sans-serif;
   background: url('static/img/northern-lights-hd.jpg') no-repeat center center fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -36,79 +36,79 @@ BODY {
 }
 
 TD {
-  FONT-SIZE: 13px;
-  COLOR: #dedede;
-  FONT-FAMILY: Verdana, Arial, sans-serif;
-  TEXT-ALIGN: left;
+  font-size: 13px;
+  color: #dedede;
+  font-family: Verdana, Arial, sans-serif;
+  text-align: left;
 }
 
 .title {
-  FONT-WEIGHT: bold;
-  FONT-SIZE: 16px;
-  FONT-FAMILY: Tahoma, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Tahoma, Arial, sans-serif;
 }
 
 .headtext {
-  FONT-WEIGHT: bold;
-  COLOR: #dedede;
-  BACKGROUND-COLOR: rgba(10, 10, 200, 0.25);
-  TEXT-ALIGN: center;
+  font-weight: bold;
+  color: #dedede;
+  background-color: rgba(10, 10, 200, 0.25);
+  text-align: center;
 }
 
 .headlinebg {
-  BACKGROUND-COLOR: rgba(10, 10, 200, 0.25);
+  background-color: rgba(10, 10, 200, 0.25);
 }
 
 .tdtop {
-  BACKGROUND-COLOR: #718292;
+  background-color: #718292;
 }
 
 .hicell {
-  BACKGROUND: rgba(150, 150, 150, 0.75);
+  background: rgba(150, 150, 150, 0.75);
 }
 
 .hicell10 {
-  FONT-SIZE: 10px;
-  BACKGROUND-COLOR: #444444;
+  font-size: 10px;
+  background-color: #444444;
 }
 
 .rankc {
-  BACKGROUND-COLOR: #444444;
+  background-color: #444444;
 }
 
 .hirankc {
-  FONT-WEIGHT: bold;
-  BACKGROUND-COLOR: #545454;
+  font-weight: bold;
+  background-color: #545454;
 }
 
 .rankc10 {
-  FONT-SIZE: 10px;
-  BACKGROUND-COLOR: #444444;
+  font-size: 10px;
+  background-color: #444444;
 }
 
 .rankc10center {
-  FONT-SIZE: 10px;
-  BACKGROUND-COLOR: #444444;
-  TEXT-ALIGN: center;
+  font-size: 10px;
+  background-color: #444444;
+  text-align: center;
 }
 
 .hirankc10center {
-  FONT-WEIGHT: bold;
-  FONT-SIZE: 10px;
-  BACKGROUND-COLOR: #545454;
-  TEXT-ALIGN: center;
+  font-weight: bold;
+  font-size: 10px;
+  background-color: #545454;
+  text-align: center;
 }
 
 .small {
-  FONT-SIZE: 10px;
-  FONT-FAMILY: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 .asmall {
-  FONT-SIZE: 10px;
-  COLOR: #dedede;
-  FONT-FAMILY: "Arial narrow", Arial, sans-serif;
-  TEXT-ALIGN: center;
+  font-size: 10px;
+  color: #dedede;
+  font-family: "Arial narrow", Arial, sans-serif;
+  text-align: center;
 }
 
 .right {

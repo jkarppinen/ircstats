@@ -33,6 +33,17 @@ body {
   background-attachment: fixed;
   background-color: #000;
   background-size: cover;
+
+ > div.flip-around {
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+
+      -webkit-transition-duration: 5s; /* Safari */
+      transition-duration: 5s;
+  }
 }
 
 TD {

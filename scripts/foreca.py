@@ -47,7 +47,7 @@ print sunrise_time, sunset_time, now > sunrise_time
 if now < sunrise_time:
     sun_status = 'Aurinko nousee ' + str(sunrise_time.hour) + ':' + str(sunrise_time.minute)
 elif now > sunrise_time and now < sunset_time:
-    sun_status = 'Pimeys laskueutuu ' + str(sunset_time.hour) + ':' + str(sunset_time.minute)
+    sun_status = 'Pimeys laskeutuu n. ' + str(sunset_time.hour) + ':' + str(sunset_time.minute)
 else:
     sun_status = 'Pimeys on laskeutunut ' + str(sunset_time.hour) + ':' + str(sunset_time.minute)
 

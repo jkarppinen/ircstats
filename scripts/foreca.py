@@ -43,7 +43,6 @@ sunrise_time = now.replace(hour=sunrise_time.hour, minute=sunrise_time.minute)
 sunset_time = datetime.datetime.strptime(sunset_time_data, '%H:%M')
 sunset_time = now.replace(hour=sunset_time.hour, minute=sunset_time.minute)
 
-print sunrise_time, sunset_time, now > sunrise_time
 if now < sunrise_time:
     sun_status = 'Aurinko nousee ' + str(sunrise_time.hour) + ':' + str(sunrise_time.minute)
 elif now > sunrise_time and now < sunset_time:

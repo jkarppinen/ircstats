@@ -11,6 +11,8 @@ stats: 'static/pages/stats.html'
 ga_id: ''
 google_ad_client: ''
 
+# API keys
+owm_api: ''
 
 # Misc
 quotes:
